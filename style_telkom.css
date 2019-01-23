@@ -1,0 +1,536 @@
+div.menu{
+    width: 100%;
+    background: red;
+    position: fixed;
+}
+
+div.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0; /* jarak antara border dengan konten(jarak dalam) */
+    margin: 0; /* jarak antara tiap elemen(jarak luar) */
+}
+
+div.menu li{
+    float: right; /*posisi element dari kanan */
+}
+
+div.menu li a{
+    text-decoration: none; /* menghilangkan garis bawah pada link */
+    color: #fff; /* warna pada font link */
+    text-align: center;
+    padding: 18px 20px; 
+    font-size: 15px;
+    display: block;
+}
+
+div.menu li a:hover{
+    background: #fff;
+    color: red;
+    border: 2px solid red;
+}
+
+div.menu img{
+    width: 150px;
+    height: auto;
+    margin: 5px;
+    margin-left: 50px;
+}
+
+div.header{
+    width: 100%;
+    height: 500px;
+    background-image: url("hero.JPG");
+    background-repeat: no-repeat; /* supaya gambar tidak berulang */
+    background-size: cover; /* memperbesar gambar seukuran cover */
+    background-position: center;
+    float: left;
+}
+
+div.bayangan{
+    width: 100%;
+    height: 500px;
+    background: #000000;
+    opacity: 0.7;
+    float: left;
+}
+
+div.header h1{
+    position: absolute;
+    text-align: center;
+    color:white;
+    top: 75px; /* mengatur jarak dari atas */
+    left: 475px; /* mengatur jarak dari kiri */
+    margin-top: 200px;
+    font-weight: bolder;
+    font-family: "Arial";
+}
+
+div.header h1 img{
+    width: 100px;
+    height: auto;
+}
+
+div.about {
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin-top: 20px;
+    float: left;
+}
+
+div.about .left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+div.about .left h1{
+    text-align: right;
+    text-transform: uppercase; /* huruf kapital */
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 20;
+    border-right: 10px solid red;
+    padding-right: 10px;
+}
+
+div.about .left p{
+    text-align: right;
+    font-size: 20px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+div.about .right{
+    width: 50%;
+    height: 75%;
+    float: right;
+}
+
+div.about .right img{
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 6px solid black;
+    border-radius: 20px; /* Untuk Membuat Border Melengkung */
+}
+
+div.layanan{
+    margin-top: 50px;
+    width: 100%;
+    height: 40%;
+    float: left;
+    padding: 30px;
+}
+
+div.layanan .box{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 20px;
+}
+
+div.layanan .box .bunder{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+div.layanan .box .bunder span{
+    font-size: 60px;
+    color: #fff;
+    margin: auto;
+}
+
+div.layanan .deskripsi{
+    margin-top: 10px;
+    text-align: center;
+    color: grey;
+    font-family: 'calibri';
+}
+
+div.layanan .box h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'calibri';
+    text-transform: uppercase;
+}
+
+.text-grey{ color: grey; }
+
+.text-green{ color: green; }
+
+.text-blue{ color: blue; }
+
+.text-navy{ color: navy; }
+
+.text-red{ color: red; }
+
+.bg-grey{ background: grey;}
+
+.bg-green{ background: green; }
+
+.bg-blue{ background: blue; }
+
+.bg-navy{ background: navy; }
+
+div.penghargaan{
+    width: 100%;
+    height: 600px;
+    background: url("parallax1.jpg") no-repeat center;
+    background-size: cover;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+div.penghargaan .gelap{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #000, #000, transparent);
+    float: left;
+    opacity: 0.7;
+}
+
+div.penghargaan .left{
+    width: 50%;
+    text-align: right;
+    border-right: 5px solid red;
+    position: absolute;
+    margin-top: 225px;
+    padding-right: 10px;
+}
+div.penghargaan h1{
+    margin: 2px;
+    font-size: 40px;
+    font-family: 'calibri';
+}
+
+div.penghargaan h2{
+    margin: 2px;
+    font-size: 30px;
+    font-family: 'calibri';
+    color: grey;
+}
+
+div.penghargaan h3{
+    margin: 2px;
+    font-size: 20px;
+    font-family: 'calibri';
+    color: grey;
+}
+
+div.penghargaan .right{
+    position: absolute;
+    left: 700px;
+    width: 25%;
+    height: auto;
+    text-align: left;
+    margin-top: 225px;
+    float: left;
+}
+
+div.penghargaan .right img{
+    width: 100px;
+    height: auto;
+}
+
+div.studi{
+    width: 100%;
+    height: 100px;
+    float: left;
+    position: flex;
+    margin-top: 100px;
+}
+
+div.studi .bunder{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+
+div.studi .bunder span{
+    font-size: 30px;
+    color: #fff;
+    margin: auto;
+}
+
+div.studi h1{
+    font-size: 40px;
+    color:#000;
+    font-family: sans-serif;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.studi p{
+    margin-top: -13;
+    color: grey;
+    text-align: center;
+    font-size: 20px;
+}
+
+div.prodi{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background: linear-gradient(#fff 300px, red 200px);
+    margin-top: 75px;
+}
+
+div.prodi .jurusan{
+    width:50%;
+    height: auto;
+    float: left;
+}
+
+div.prodi .jurusan h3{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin: 2px;
+}
+
+div.prodi .jurusan p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+div.prestasi{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background: linear-gradient(white 375px, red 125px);   
+}
+
+div.prestasi .left{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+div.prestasi .left h1{
+    margin-left: 20px;
+    color: black;
+    font-size: 40px;
+    border-left: 5px solid red;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+div.prestasi .left p{
+    margin-left: 20px;
+    color: grey;
+    font-size: 20px;
+}
+
+div.prestasi .right{
+    width: 60%;
+    height: auto;
+    float: left;
+}
+
+div.prestasi .right img{
+    width: 500px;
+    height: auto;
+    border: 20px solid grey;
+    margin-top: 60px;
+    border-radius: 5%;
+}
+
+div.prestasi .footer{
+    position: relative;
+    left: 75px;
+    bottom: 35px;
+}
+
+div.prestasi .footer h3{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'calibri';
+}
+
+div.info{
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+}
+
+div.info .bunder{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+div.info .bunder span{
+    margin: auto;
+    font-size: 50px;
+    color: #fff;
+}
+
+div.info h1{
+    font-size: 40px;
+    color:#000;
+    font-family: sans-serif;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.info p{
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+}
+
+div.update{
+    width:100%;
+    height: 300px;
+    float: left;
+    background: red;
+    position: relative;
+}
+
+div.update .centang{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: -50px;
+}
+
+div.update .centang span{
+    color: white;
+    margin: auto;
+    font-size: 30px;
+}
+
+div.update .left{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+div.update .left h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-family: 'calibri';
+}
+
+div.update .left p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+div.update .right{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+}
+
+div.update .right .bunder{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    float: left;
+}
+
+div.update .right .bunder span{
+    font-size: 40px;
+    color: red;
+    margin: auto;
+}
+
+div.pk{
+    width: 100%;
+    height: 500px;
+    float: left;
+    margin-top: 30px;
+}
+
+div.pk .bunder{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+div.pk .bunder span{
+    color: #fff;
+    font-size: 50px;
+    margin: auto;
+}
+
+div.pk h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'calibri';
+}
+
+div.pk p{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    font-family: 'calibri';
+}
+
+div.img{
+    float: left;
+    width: 100%;
+    margin-top: -250px;
+}
+
+div.img img{
+    width: 120px;
+    height: auto;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+div.foot{
+    width: 100%;
+    height: 400px;
+    background: #222;
+    float: left;
+}
+
+div.foot .kiri{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+div.foot .kkiri{
+    width: 25%;
+    color: #fff;
+}
